@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar";
+import "tailwindcss/tailwind.css"
 
 import { useState } from "react";
 import Modal from "../components/modal";

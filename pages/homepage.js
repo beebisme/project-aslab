@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar";
+import "tailwindcss/tailwind.css"
 import Link from "next/dist/client/link";
 
 

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "tailwindcss/tailwind.css"
 
 export default function Modal(
     { score, status }
