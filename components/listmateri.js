@@ -3,7 +3,7 @@ import "tailwindcss/tailwind.css"
 
 export default function ListMateri({ namaMateri }) {
     return (
-        <div className="border-0 lg:border-2 border-slate-300 px-4 py-4 rounded">
+        <div className="ml-2 bg-gray-100 p-5 rounded-lg">
             <h1 className="text-xl font-semibold">Daftar Materi {namaMateri}</h1>
             <div className="container list-decimal mt-2">
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2 capitalize"><Link href="/microsoft-word/tampilan-microsoft-word-dan-fungsinya">Bagian-bagian tampilan microsoft word dan fungsinya</Link></li>
