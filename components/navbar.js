@@ -13,10 +13,10 @@ export default function Navbar() {
                 <button className="mr-10 my-1 text-white flex lg:hidden" type="button" onClick={() => setOpen(!open)}>{hamburgerIcon}</button>
                 <div className="text-sky-300 text-2xl font-bold capitalize ml-10 lg:ml-20">TIM 13</div>
             </div>
-            <div className={`${open ? "flex" : "hidden"} lg:flex justify-center text-center`}>
+            <div className={`${open ? "flex" : "hidden"} lg:flex justify-end text-right`}>
                 <ul className="list-none flex flex-col lg:flex-row mx-10 lg:mx-20 mb-4 lg:my-4">
-                    <li className="mr-8 text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/microsoft-word/word">Microsoft word</Link></li>
-                    <li className="mr-8 text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/powerpoint">Microsoft powerpoint</Link></li>
+                    <li className="lg:mr-8 text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/microsoft-word/word">Microsoft word</Link></li>
+                    <li className="lg:mr-8 text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/powerpoint">Microsoft powerpoint</Link></li>
                     <li className="text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/quiz">Quiz</Link></li>
                 </ul>
             </div>
