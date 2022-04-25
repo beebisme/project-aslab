@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="flex flex-col lg:flex-row justify-between bg-[#0A192F]">
             <div className="flex flex-row-reverse justify-between my-4">
                 <button className="mr-10 my-1 text-white flex lg:hidden" type="button" onClick={() => setOpen(!open)}>{hamburgerIcon}</button>
-                <div className="text-sky-300 text-2xl font-bold capitalize ml-10 lg:ml-20"><link href=" ">TIM 13</link></div>
+                <div className="text-sky-300 text-2xl font-bold capitalize ml-10 lg:ml-20"><link href="/homepage">TIM 13</link></div>
             </div>
             <div className={`${open ? "flex" : "hidden"} lg:flex justify-end text-right`}>
                 <ul className="list-none flex flex-col lg:flex-row mx-10 lg:mx-20 mb-4 lg:my-4">
