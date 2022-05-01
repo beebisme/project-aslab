@@ -20,7 +20,7 @@ export default function Word() {
                     </p>
 
                     <br />
-                    <div className="leading-relaxed text-left mb-4">
+                    <div className="leading-relaxed pr-10 text-left mb-4">
                         <li>Klik menu <b>Home.</b></li>
                         <li>Klik tombol <b>Replace</b> pada grup Editing. Kita juga bisa menggunakan cara cepat dengan shortcut kombinasi keyboard <b>CTRL+H</b>. Maka akan tampil kotak dialog <i>Find and Replace</i></li>
                         <li>Isi kata yang ingin diganti pada <b>Find what</b>.</li>

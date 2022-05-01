@@ -17,7 +17,7 @@ export default function Word() {
                     <p className="text-justify mr-10 lg:mr-0 leading-normal">Find digunakan untuk mencari kata atau kalimat pada dokumen secara cepat. Untuk menggunakannya kita hanya perlu klik pada icon Find yang berbentuk kaca pembesar di menu Home pada grup Editing. Selain itu kita juga bisa menggunakan shortcut tombol kombinasi keyboard CTRL+F untuk mengaktifkan submenu find. Lebih jelasnya silahkan simak langkah-langkahnya di bawah ini.
                     </p>
                     <br />
-                    <div className="leading-relaxed text-left mb-4">
+                    <div className="leading-relaxed pr-10 text-left mb-4">
                         <li>Klik menu <b>Home.</b></li>
                         <li>Klik tombol <b>Find </b> yang memiliki icon kaca pembesar. Letaknya berada di grup Editing. Kita juga bisa menggunakan tombol cepat keyboard <b>CTRL+F.</b></li>
                         <li>Letakkan kursor pada kolom search atau kotak putih di jendela navigasi dengan cara klik kolom tersebut.</li>

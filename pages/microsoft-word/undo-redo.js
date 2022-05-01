@@ -18,7 +18,7 @@ export default function Word() {
                     </p>
 
                     <br />
-                    <div className="leading-relaxed text-left mb-4">
+                    <div className="leading-relaxed pr-10 text-left mb-4">
                         <li>Klik tombol <b>Undo</b> pada quick access toolbar tepatnya di atas jendela sebelah kiri. Maka dokumen akan dikembalikan ke 1 langkah pengeditan sebelumnya. Kita juga bisa menggunakan tombol kombinasi keyboard <b>CTRL+Z</b> untuk melakukan Undo.</li>
                         <li>Jika belum sesuai keinginan klik tombol Undo lagi hingga kita berada di kondisi yang diinginkan.</li>
                         <li>Jika ingin membatalkan perintah undo, klik tombol <b>Redo</b> yang ada pada quick access toolbar di sebelah kiri atas ms word. Atau kita bisa menggunakan shortcut tombol kombinasi keyboard <b>Ctrl+Y</b>. Maka aplikasi akan membatalkan 1 langkah undo.</li>

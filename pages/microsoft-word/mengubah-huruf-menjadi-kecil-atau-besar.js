@@ -17,7 +17,7 @@ export default function Word() {
                     <p className="text-justify mr-10 lg:mr-0 leading-normal">Kali kita akan belajar mengenai cara mengubah huruf kecil menjadi huruf besar di MS Word atau sebaliknya menggunakan Change case di Toolbar. Untuk lebih jelasnya silahkan simak langkah-langkahnya di bawah ini:
                     </p>
                     <br />
-                    <div className="leading-relaxed text-left mb-4">
+                    <div className="leading-relaxed pr-10 text-left mb-4">
                         <li>Sorot atau blok teks yang diinginkan. Sesuai penjelasan di atas kita bisa menyorot 1 kata, 1 kalimat hingga 1 dokumen.</li>
                         <li>Klik menu <b>Home</b></li>
                         <li>Klik tombol <b>Change Case</b> yang dilambangkan dengan icon <b>Aa</b>. Maka akan tampil pilihan <b>Sentence case, lowercase, UPPERCASE, Capitalize Each Word dan tOGGLE cASE.</b></li>

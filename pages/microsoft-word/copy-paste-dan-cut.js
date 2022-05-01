@@ -20,7 +20,7 @@ export default function Word() {
                     <p className="text-justify mr-10 lg:mr-0 leading-normal">Copy adalah perintah yang memiliki fungsi untuk menyalin teks atau obyek lain dengan tetap mempertahankan objek aslinya. Jika kita ingin mendapatkan salinan suatu bagian teks dokumen ke posisi yang lain, kita bisa memanfaatkan fitur Copy yang ada pada MS Word. Paste adalah perintah yang digunakan setelah melakukan perintah copy atau cut. Fungsi paste adalah untuk menampilkan bagian teks dokumen yang telah di copy atau di cut.
                     </p>
                     <br />
-                    <div className="leading-relaxed text-left mb-4">
+                    <div className="leading-relaxed pr-10 text-justify mb-4">
                         <li>Pilih teks dokumen yang ingin disalin dengan cara menyorot atau blok teks dokumen tersebut.</li>
                         <li>Klik menu <b>Home</b> lalu klik icon <b>Copy</b> yang berada di grup Clipboard. Untuk cara yang lebih cepat, perintah copy dapat dilakukan dengan tombol kombinasi keyboard <b>CTRL+C</b></li>
                         <li>Sedangkan untuk Cut, Klik tombol <b>Cut</b> yang juga terdapat pada grup Clipboard. Selain dengan melakukan klik dari mouse kita juga bisa menggunakan cara cepat dengan menekan tombol <b>CTRL+X.</b></li>
