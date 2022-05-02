@@ -4,7 +4,7 @@ import "tailwindcss/tailwind.css"
 import { useState } from "react";
 import Modal from "../components/modal";
 
-export default function Quiz() {
+export default function QuizWord() {
     const [Soal, setSoal] = useState([
         {
             id: 0,

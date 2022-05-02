@@ -1,7 +1,7 @@
 import Link from "next/link"
 import "tailwindcss/tailwind.css"
 
-export default function ListMateri({ namaMateri }) {
+export default function ListMateri({ namaMateri, quiz, link }) {
     return (
         <div className="ml-2 bg-gray-100 p-5 rounded-lg">
             <h1 className="text-xl font-semibold">Daftar Materi {namaMateri}</h1>
@@ -12,10 +12,11 @@ export default function ListMateri({ namaMateri }) {
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/mencari-kata">Mencari Kata di Word dengan Find</Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/replace">Mengganti Kata di MS Word dengan Replace secara cepat</Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/undo-redo">Cara membatalkan perintah di microsoft word menggunakan Undo dan Redo</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="#">Mengubah Jenis Font</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="#">Fungsi Underline, Bold & Italic </Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="#">Mengatur Spasi Antar Kata dan Huruf dengan Spacing</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="#">Membuat Pangkat</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/mengganti-font">Mengubah Jenis Font</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/underline-bold-italic">Fungsi Underline, Bold & Italic </Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/mengatur-spasi">Mengatur Spasi Antar Kata dan Huruf dengan Spacing</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/membuat-pangkat">Membuat Pangkat</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href={`/${link}`}>{quiz}</Link></li>
             </div>
         </div>
 
