@@ -1,6 +1,6 @@
 import Navbar from "../../components/navbar"
 import "tailwindcss/tailwind.css"
-import ListMateri from "../../components/listmateri"
+import ListMateriWord from "../../components/listMateriWord"
 
 export default function Word() {
     return (
