@@ -28,7 +28,7 @@ export default function Word() {
 
                 {/* list materi */}
                 <div className="mr-10 lg:mr-20 ml-10 my-8">
-                    <ListMateri namaMateri="Microsoft Word" />
+                    <ListMateriWord />
                 </div>
             </div>
         </>
