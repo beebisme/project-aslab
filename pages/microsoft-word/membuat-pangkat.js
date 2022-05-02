@@ -1,6 +1,6 @@
 import Navbar from "../../components/navbar"
 import "tailwindcss/tailwind.css"
-import ListMateri from "../../components/listmateri"
+import ListMateriWord from "../../components/listMateriWord"
 
 export default function Word() {
     return (
@@ -27,7 +27,7 @@ export default function Word() {
 
                 {/* list materi */}
                 <div className="mr-10 lg:mr-20 ml-10 my-8">
-                    <ListMateri namaMateri="Microsoft Word" />
+                    <ListMateriWord />
                 </div>
             </div>
         </>
