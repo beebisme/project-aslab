@@ -17,7 +17,6 @@ export default function Navbar() {
                 <ul className="list-none flex flex-col lg:flex-row mx-10 lg:mx-20 mb-4 lg:my-4">
                     <li className="lg:mr-8 text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/microsoft-word/word">Microsoft word</Link></li>
                     <li className="lg:mr-8 text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/powerpoint">Microsoft powerpoint</Link></li>
-                    <li className="text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/quiz">Quiz</Link></li>
                 </ul>
             </div>
         </div>
