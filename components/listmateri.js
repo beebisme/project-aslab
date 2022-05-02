@@ -1,7 +1,7 @@
 import Link from "next/link"
 import "tailwindcss/tailwind.css"
 
-export default function ListMateri({ namaMateri, quiz, link }) {
+export default function ListMateri({ namaMateri }) {
     return (
         <div className="ml-2 bg-gray-100 p-5 rounded-lg">
             <h1 className="text-xl font-semibold">Daftar Materi {namaMateri}</h1>
@@ -16,7 +16,7 @@ export default function ListMateri({ namaMateri, quiz, link }) {
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/underline-bold-italic">Fungsi Underline, Bold & Italic </Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/mengatur-spasi">Mengatur Spasi Antar Kata dan Huruf dengan Spacing</Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/membuat-pangkat">Membuat Pangkat</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href={`/${link}`}>{quiz}</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/quiz-word">Quiz Microsoft Word</Link></li>
             </div>
         </div>
 
