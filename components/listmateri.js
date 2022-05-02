@@ -16,7 +16,7 @@ export default function ListMateri({ namaMateri, judulQuiz, linkQuiz }) {
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/underline-bold-italic">Fungsi Underline, Bold & Italic </Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/mengatur-spasi">Mengatur Spasi Antar Kata dan Huruf dengan Spacing</Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/membuat-pangkat">Membuat Pangkat</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href={`/${linkQuiz}`}>{judulQuiz}</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href={linkQuiz}>{judulQuiz}</Link></li>
             </div>
         </div>
 
