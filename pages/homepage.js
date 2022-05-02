@@ -16,7 +16,7 @@ export default function HomePage() {
                         LEARN MICROSOFT OFFICE EASILY
                     </div>
                     <div className="flex flex-col lg:flex-row mt-10 justify-center items-center">
-                        <button className=" w-max mb-4 lg:mb-0 text-center border-2 border-white text-white drop-shadow-lg shadow-[#133C7C] rounded-lg py-2 md:py-4 px-8 md:px-10 font-semibold hover:bg-white hover:text-[#0A192F]"><Link href="/microsoft-word/word">Microsoft Word</Link></button>
+                        <button className=" w-max mb-4 lg:mb-0 text-center border-2 border-white text-white drop-shadow-lg shadow-[#133C7C] rounded-lg py-2 md:py-4 px-8 md:px-10 font-semibold hover:bg-white hover:text-[#0A192F]"><Link href="/word">Microsoft Word</Link></button>
                         <button className="w-max lg:ml-4 text-center border-2 border-white text-white rounded-lg py-2 md:py-4 px-4 md:px-10 font-semibold hover:bg-white hover:text-[#0A192F]"><Link href="/powerpoint">Microsoft Powerpoint</Link></button>
                     </div>
                 </div>
