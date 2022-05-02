@@ -1,6 +1,5 @@
 import Navbar from "../components/navbar"
 import "tailwindcss/tailwind.css"
-import ListMateri from "../components/listmateri"
 
 export default function PowerPoint() {
     return (
@@ -18,7 +17,7 @@ export default function PowerPoint() {
 
                 {/* list materi */}
                 <div className="mr-10 lg:mr-20 ml-10 my-8">
-                    <ListMateri namaMateri="Microsoft Powerpoint" />
+
                 </div>
             </div>
 
