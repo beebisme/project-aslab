@@ -15,7 +15,7 @@ export default function Navbar() {
             </div>
             <div className={`${open ? "flex" : "hidden"} lg:flex justify-end text-right`}>
                 <ul className="list-none flex flex-col lg:flex-row mx-10 lg:mx-20 mb-4 lg:my-4">
-                    <li className="lg:mr-8 text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/microsoft-word/word">Microsoft word</Link></li>
+                    <li className="lg:mr-8 text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/word">Microsoft word</Link></li>
                     <li className="lg:mr-8 text-neutral-300 font-semibold text-lg hover:text-white"><Link href="/powerpoint">Microsoft powerpoint</Link></li>
                 </ul>
             </div>

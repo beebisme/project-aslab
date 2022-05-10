@@ -1,59 +1,59 @@
-import Navbar from "../components/navbar";
+import Navbar from "../../components/navbar";
 import "tailwindcss/tailwind.css"
 
 import { useState } from "react";
-import Modal from "../components/modal";
+import Modal from "../../components/modal";
 
-export default function QuizWord() {
+export default function QuizPP() {
     const [Soal, setSoal] = useState([
         {
             id: 0,
-            soal: "1. Pada bagian kiri paling bawah jendela MS Word terdapat bagian yang berfungsi untuk menampilkan informasi secara real time mengenai perintah yang sedang aktif pada dokumen yang sedang dibuka adalah…",
-            jawaban: "A",
-            pilihan_1: " Status Bar",
-            pilihan_2: " Title Bar",
-            pilihan_3: " Window Management",
-            pilihan_4: " Worksheet",
+            soal: "1. Format penyimpanan powerpoint adalah...",
+            jawaban: "B",
+            pilihan_1: " .XLSX",
+            pilihan_2: " .PPTX",
+            pilihan_3: " .DOCX",
+            pilihan_4: " .JPG",
         },
         {
             id: 1,
-            soal: "2. Untuk mencari kata atau kalimat pada dokumen secara cepat pada Microsoft Word menggunakan fitur…",
-            jawaban: "B",
-            pilihan_1: " Replace",
-            pilihan_2: " Find",
-            pilihan_3: " Cut",
-            pilihan_4: " Copy"
+            soal: "2. Fasilitas yang membantu dalam pengaturan ukuran tampilan slide adalah...",
+            jawaban: "A",
+            pilihan_1: " Zoom Level",
+            pilihan_2: " Tab Outline",
+            pilihan_3: " Tab View",
+            pilihan_4: " Status Bar"
         },
         {
             id: 2,
-            soal: "3. Untuk menggunakan fitur undo dan redo bisa menggunakan tombol kombinasi keyboard…",
+            soal: "3. Bagaimana cara menambahkan teks pada power point?",
             jawaban: "C",
-            pilihan_1: " CTRL+V dan CTRL+H",
-            pilihan_2: " CTRL+S dan CRTL+B",
-            pilihan_3: " CTRL+Z dan CRTL+Y",
-            pilihan_4: " CRTL+F dan CRTL+X"
+            pilihan_1: " Pilih insert lalu klik shapes dan ketikan teks",
+            pilihan_2: " Pilih home lalu klik new slide dan ketikan teks",
+            pilihan_3: " Klik pada kolom slide lalu ketikkan teks",
+            pilihan_4: " Klik pada kolom slide lalu ketikkan teks "
         },
         {
             id: 3,
-            soal: "4. Fitur yang digunakan untuk mengatur jarak spasi antar karakter pada Microsoft Word adalah…",
+            soal: "4. Apa yang pertama kali dilakukan ketika ingin menambahkan gambar pada slide:",
             jawaban: "D",
-            pilihan_1: " Replace",
-            pilihan_2: " Insert",
-            pilihan_3: " Justify",
-            pilihan_4: " Spacing"
+            pilihan_1: " Klik pada tab layout",
+            pilihan_2: " Klik pada tab References",
+            pilihan_3: " Klik pada tab Insert",
+            pilihan_4: " Klik pada tab review"
         },
         {
             id: 4,
-            soal: "5. Pada grup pengaturan paragraf yang berfungsi untuk membuat teks atau paragraf rata di kedua sisi kanan dan kiri, bisa menggunakan tombol… ",
+            soal: "5. Menu apa yang digunakan untuk menambahkan animasi pada slide : ",
             jawaban: "A",
-            pilihan_1: " Justify",
-            pilihan_2: " Center",
-            pilihan_3: " Align Left",
-            pilihan_4: " Align Right"
+            pilihan_1: " Design",
+            pilihan_2: " Transitions",
+            pilihan_3: " Insert",
+            pilihan_4: " Animations"
         },
         {
             id: 5,
-            soal: "6. Jika anda ingin mengatur margin kiri, atas, kanan dan bawah sesuai keinginan pada dokumen, Microsoft Word telah menyediakan opsi yang berada pada menu Layout, yaitu…",
+            soal: "6. Sebagai efek Visualisasi dari pergantian Slide adalah fungsi dari...",
             jawaban: "C",
             pilihan_1: " Insert Image",
             pilihan_2: " Paragpraph",
@@ -62,7 +62,7 @@ export default function QuizWord() {
         },
         {
             id: 6,
-            soal: "7. Untuk menggabungkan sel table bisa menggunakan…",
+            soal: "7. Perintah untuk pengaturan desain slide, adalah...",
             jawaban: "B",
             pilihan_1: " Delete Cell",
             pilihan_2: " Merge Cell",
@@ -71,7 +71,7 @@ export default function QuizWord() {
         },
         {
             id: 7,
-            soal: "8. Untuk menyisipkan gambar pada dokumen dapat menggunakan fitur…",
+            soal: "8. tool pada grup fonts yang digunakan untuk memberikan efek bayangan adalah... ",
             jawaban: "A",
             pilihan_1: " Insert Picture",
             pilihan_2: " Insert Column",
@@ -80,7 +80,7 @@ export default function QuizWord() {
         },
         {
             id: 8,
-            soal: "9. Mengatur indentasi pada Word dapat menggunakan…",
+            soal: "9. Untuk menghapus slide dapat dilakukan dengan perintah ?",
             jawaban: "B",
             pilihan_1: " Table",
             pilihan_2: " Ruler",
@@ -89,7 +89,7 @@ export default function QuizWord() {
         },
         {
             id: 9,
-            soal: "10. Kombinasi keyboard CTRL+H, digunakan untuk fitur…",
+            soal: "10. Untuk menyimpan powerpoint dapat dilakukan dengan ?",
             jawaban: "D",
             pilihan_1: " Find",
             pilihan_2: " Paste",
@@ -104,7 +104,11 @@ export default function QuizWord() {
 
     const handleNilai = (e) => {
         if (e.target.value === Soal[e.target.id].jawaban) {
-            setNilai(nilai + 1)
+            if (nilai === 0) {
+                setNilai(nilai + 1)
+            } else {
+                setNilai(nilai)
+            }
         }
     }
 
@@ -136,7 +140,7 @@ function PilihanGanda({
     return (
         <>
             <div className="lg:w-3/4">
-                <h1 className="px-10 lg:px-20 py-4 font-semibold text-lg">{soal}</h1>
+                <h1 className="px-10 lg:px-20 pt-6 font-semibold text-lg">{soal}</h1>
                 <div className="container px-10 lg:px-20 capitalize text-red">
                     <input type="radio" id={id} name={id} value="A" onChange={fungsi} />{pilihan_1}<br />
                     <input type="radio" id={id} name={id} value="B" onChange={fungsi} />{pilihan_2}<br />
