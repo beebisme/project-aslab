@@ -9,13 +9,13 @@ export default function ListMateriPP() {
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2 capitalize"><Link href="/microsoft-powerpoint/cara-menggunakan-pp-di-pc">Cara Menggunakan Powerpoint Di PC/Laptop</Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/fungsi-tool-group-font">Fungsi Tools Group Font Pada PowerPoint</Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/cara-menambahkan-dan-memformat-teks">Cara Menambahkan dan Memformat Teks Pada Powerpoint</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/mencari-kata">Mencari Kata di Word dengan Find</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/replace">Mengganti Kata di MS Word dengan Replace secara cepat</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/undo-redo">Cara membatalkan perintah di microsoft word menggunakan Undo dan Redo</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/mengganti-font">Mengubah Jenis Font</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/underline-bold-italic">Fungsi Underline, Bold & Italic </Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/mengatur-spasi">Mengatur Spasi Antar Kata dan Huruf dengan Spacing</Link></li>
-                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/membuat-pangkat">Membuat Pangkat</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/menambahkan-gambar">Cara Menambahkan Gambar Pada PowerPoint</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/memberikan-animasi-pada-slide">Cara Memberikan Animasi Pada Slide PowerPoint</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/menambahkan-transisi">Cara Memberikan Transisi Pada Slide PowerPoint</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/mengganti-tema">Cara Mengganti Tema Pada PowerPoint</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/menambahkan-slide">Cara Menambahkan Slide Pada PowerPoint</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/menghapus-slide">Cara Menghapus Slide Pada PowerPoint</Link></li>
+                <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/menyimpan-dan-menampilkan-presentasi">Cara Menyimpan dan Menampilkan Slide Presentasi Pada PowerPoint</Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/quiz-pp">Quiz Microsoft Powerpoint</Link></li>
             </div>
         </div>

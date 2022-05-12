@@ -12,8 +12,11 @@ export default function PowerPoint() {
             {/* materi */}
             <div className="container flex flex-col lg:flex-row">
                 <div className="text-center w-11/12 lg:w-8/12 ml-10 lg:ml-20 my-6">
-                    <h1 className="font-bold text-2xl mb-4 mr-10 lg:mr-0 capitalize">ini judul</h1>
-                    <p className="text-justify mr-10 lg:mr-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui natus mollitia ipsum pariatur aspernatur nulla reiciendis optio non porro velit deserunt quis maiores tempore soluta tempora quae, exercitationem amet explicabo omnis enim tenetur voluptate sunt saepe. Repudiandae tenetur odit doloribus autem quasi cum eligendi! Laudantium tenetur incidunt perspiciatis, omnis totam non ab voluptate iusto maiores deleniti impedit fugiat delectus dolores! Voluptatem est nihil dolore obcaecati commodi sequi facilis aliquid culpa ex dolores, suscipit esse. Facere repudiandae minima repellat, delectus sunt nobis aut veniam tempore qui officia similique, minus veritatis? Labore a exercitationem nemo velit consequuntur voluptatibus iste vero totam adipisci!</p>
+                    <h1 className="font-bold text-2xl mb-4 mr-10 lg:mr-0 capitalize">TUTORIAL MENGGUNAKAN POWER POINT BAGI PEMULA</h1>
+                    <p className="text-justify mr-10 lg:mr-0 leading-normal">PowerPoint tentu sobat-sobat sudah tahu bukan? Powerpoint adalah program atau software  komputer dikembangkan oleh Microsoft yang yang digunakan untuk membuat presentasi, baik itu untuk presentasi pekerjaan kantor, presentasi di sekolah atau perkuliahan dan presentasi lainnya.</p>
+                    <p className="text-justify mr-10 lg:mr-0 leading-normal">Kelebihan pada aplikasi powerpoint yaitu kita bisa menambahkan gambar-gambar, animasi, grafik, suara dan video. Sehingga presentasi yang kita buat akan lebih menarik dan lebih informatif, sehingga mudah untuk dipahami oleh audient.</p>
+                    <p className="text-justify mr-10 lg:mr-0 leading-normal">Walaupun begitu, untuk orang yang tidak pernah mengenal istilah ini ataupun tak pernah memakainya, pastilah bingung bagaimana cara menggunakan PowerPoint tersebut. Nah berikut ini akan dijelaskan bagaimana cara membuat PowerPoint yang baik untuk pemula, mulai dari membuat slide, menghapus slide, menambahkan animasi atupun transisi ke dalam PowerPoint. Yuk simak penjelasan dibawah ini :
+                    </p>
                 </div>
 
                 {/* list materi */}

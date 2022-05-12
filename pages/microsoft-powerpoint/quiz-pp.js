@@ -17,26 +17,26 @@ export default function QuizPP() {
         },
         {
             id: 1,
-            soal: "2. Fasilitas yang membantu dalam pengaturan ukuran tampilan slide adalah...",
-            jawaban: "A",
-            pilihan_1: " Zoom Level",
-            pilihan_2: " Tab Outline",
-            pilihan_3: " Tab View",
-            pilihan_4: " Status Bar"
+            soal: "2. Tool pada grup fonts yang digunakan untuk memberikan efek bayangan pada teks adalah ?...",
+            jawaban: "B",
+            pilihan_1: " Text Line",
+            pilihan_2: " Text Shadow",
+            pilihan_3: " Text Indent",
+            pilihan_4: " Text Align"
         },
         {
             id: 2,
-            soal: "3. Bagaimana cara menambahkan teks pada power point?",
-            jawaban: "C",
-            pilihan_1: " Pilih insert lalu klik shapes dan ketikan teks",
-            pilihan_2: " Pilih home lalu klik new slide dan ketikan teks",
-            pilihan_3: " Klik pada kolom slide lalu ketikkan teks",
-            pilihan_4: " Klik pada kolom slide lalu ketikkan teks "
+            soal: "3. Icon yang digunakan untuk menambahkan daftar berpoin atau bernomor disebut ?",
+            jawaban: "B",
+            pilihan_1: " Number atau Circle",
+            pilihan_2: " Bullets atau Numbering ",
+            pilihan_3: " List atau Table of contens",
+            pilihan_4: " Increase atau Decrease "
         },
         {
             id: 3,
-            soal: "4. Apa yang pertama kali dilakukan ketika ingin menambahkan gambar pada slide:",
-            jawaban: "D",
+            soal: "4. Hal pertama kali yang dilakukan ketika ingin menambahkan gambar pada slide adalah ?",
+            jawaban: "C",
             pilihan_1: " Klik pada tab layout",
             pilihan_2: " Klik pada tab References",
             pilihan_3: " Klik pada tab Insert",
@@ -44,8 +44,8 @@ export default function QuizPP() {
         },
         {
             id: 4,
-            soal: "5. Menu apa yang digunakan untuk menambahkan animasi pada slide : ",
-            jawaban: "A",
+            soal: "5. Tab menu yang digunakan untuk menambahkan animasi pada slide adalah ? ",
+            jawaban: "D",
             pilihan_1: " Design",
             pilihan_2: " Transitions",
             pilihan_3: " Insert",
@@ -53,48 +53,48 @@ export default function QuizPP() {
         },
         {
             id: 5,
-            soal: "6. Sebagai efek Visualisasi dari pergantian Slide adalah fungsi dari...",
+            soal: "6. Tab menu apa yang digunakan untuk menambahkan transisi pada slide?",
             jawaban: "C",
-            pilihan_1: " Insert Image",
-            pilihan_2: " Paragpraph",
-            pilihan_3: " Page Setup Margins",
-            pilihan_4: " Columns"
+            pilihan_1: " Slide",
+            pilihan_2: " Template",
+            pilihan_3: " Transisions",
+            pilihan_4: " Autocontent Wizard"
         },
         {
             id: 6,
-            soal: "7. Perintah untuk pengaturan desain slide, adalah...",
-            jawaban: "B",
-            pilihan_1: " Delete Cell",
-            pilihan_2: " Merge Cell",
-            pilihan_3: " Insert Cell",
-            pilihan_4: " Insert Table"
+            soal: "7. Perintah yang digunakan untuk pengaturan desain slide adalah ?",
+            jawaban: "C",
+            pilihan_1: " Klik Menu Ribbon “Home” lalu Klik Tema yang diinginkan ",
+            pilihan_2: " Klik Menu Ribbon “Insert” lalu Klik Tema yang diinginkan",
+            pilihan_3: " Klik Menu Ribbon “Design” lalu Klik Tema yang diinginkan  ",
+            pilihan_4: " Klik Menu Ribbon “View” lalu Klik Tema yang diinginkan "
         },
         {
             id: 7,
-            soal: "8. tool pada grup fonts yang digunakan untuk memberikan efek bayangan adalah... ",
-            jawaban: "A",
-            pilihan_1: " Insert Picture",
-            pilihan_2: " Insert Column",
-            pilihan_3: " Insert Table",
-            pilihan_4: " Insert"
+            soal: "8. Fungsi dari icon Section adalah ? ",
+            jawaban: "C",
+            pilihan_1: " Menambahkan slide baru yang akan kita buat.",
+            pilihan_2: " Mengganti layout pada slide yang kita pilih.",
+            pilihan_3: " Mengelompokkan slide yang memiliki topik sama.",
+            pilihan_4: " Menambahkan desain pada powerpoint"
         },
         {
             id: 8,
             soal: "9. Untuk menghapus slide dapat dilakukan dengan perintah ?",
-            jawaban: "B",
-            pilihan_1: " Table",
-            pilihan_2: " Ruler",
-            pilihan_3: " Image",
-            pilihan_4: " Reference"
+            jawaban: "A",
+            pilihan_1: " Klik kanan Slide lalu Klik Detele Slide",
+            pilihan_2: " Klik Ribbon “Home” lalu Klik Delete Slide",
+            pilihan_3: " Klik Ribbon “Format” lalu Klik Delete Slide ",
+            pilihan_4: " Klik New slide lalu Klik Delete Slide "
         },
         {
             id: 9,
-            soal: "10. Untuk menyimpan powerpoint dapat dilakukan dengan ?",
-            jawaban: "D",
-            pilihan_1: " Find",
-            pilihan_2: " Paste",
-            pilihan_3: " Cut",
-            pilihan_4: " Replace"
+            soal: "10. Cara menyimpan hasil presentasi PowerPoint dapat dilakukan dengan ?",
+            jawaban: "C",
+            pilihan_1: " Ctrl + C",
+            pilihan_2: " Ctrl + P",
+            pilihan_3: " Ctrl + S",
+            pilihan_4: " Ctrl + V"
         }
     ]);
 
