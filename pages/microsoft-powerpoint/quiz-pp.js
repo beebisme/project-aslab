@@ -14,6 +14,7 @@ export default function QuizPP() {
             pilihan_2: " .PPTX",
             pilihan_3: " .DOCX",
             pilihan_4: " .JPG",
+            result: 0
         },
         {
             id: 1,
@@ -22,7 +23,8 @@ export default function QuizPP() {
             pilihan_1: " Text Line",
             pilihan_2: " Text Shadow",
             pilihan_3: " Text Indent",
-            pilihan_4: " Text Align"
+            pilihan_4: " Text Align",
+            result: 0
         },
         {
             id: 2,
@@ -31,7 +33,8 @@ export default function QuizPP() {
             pilihan_1: " Number atau Circle",
             pilihan_2: " Bullets atau Numbering ",
             pilihan_3: " List atau Table of contens",
-            pilihan_4: " Increase atau Decrease "
+            pilihan_4: " Increase atau Decrease ",
+            result: 0
         },
         {
             id: 3,
@@ -40,7 +43,8 @@ export default function QuizPP() {
             pilihan_1: " Klik pada tab layout",
             pilihan_2: " Klik pada tab References",
             pilihan_3: " Klik pada tab Insert",
-            pilihan_4: " Klik pada tab review"
+            pilihan_4: " Klik pada tab review",
+            result: 0
         },
         {
             id: 4,
@@ -49,7 +53,8 @@ export default function QuizPP() {
             pilihan_1: " Design",
             pilihan_2: " Transitions",
             pilihan_3: " Insert",
-            pilihan_4: " Animations"
+            pilihan_4: " Animations",
+            result: 0
         },
         {
             id: 5,
@@ -58,7 +63,8 @@ export default function QuizPP() {
             pilihan_1: " Slide",
             pilihan_2: " Template",
             pilihan_3: " Transisions",
-            pilihan_4: " Autocontent Wizard"
+            pilihan_4: " Autocontent Wizard",
+            result: 0
         },
         {
             id: 6,
@@ -67,7 +73,8 @@ export default function QuizPP() {
             pilihan_1: " Klik Menu Ribbon “Home” lalu Klik Tema yang diinginkan ",
             pilihan_2: " Klik Menu Ribbon “Insert” lalu Klik Tema yang diinginkan",
             pilihan_3: " Klik Menu Ribbon “Design” lalu Klik Tema yang diinginkan  ",
-            pilihan_4: " Klik Menu Ribbon “View” lalu Klik Tema yang diinginkan "
+            pilihan_4: " Klik Menu Ribbon “View” lalu Klik Tema yang diinginkan ",
+            result: 0
         },
         {
             id: 7,
@@ -76,7 +83,8 @@ export default function QuizPP() {
             pilihan_1: " Menambahkan slide baru yang akan kita buat.",
             pilihan_2: " Mengganti layout pada slide yang kita pilih.",
             pilihan_3: " Mengelompokkan slide yang memiliki topik sama.",
-            pilihan_4: " Menambahkan desain pada powerpoint"
+            pilihan_4: " Menambahkan desain pada powerpoint",
+            result: 0
         },
         {
             id: 8,
@@ -85,7 +93,8 @@ export default function QuizPP() {
             pilihan_1: " Klik kanan Slide lalu Klik Detele Slide",
             pilihan_2: " Klik Ribbon “Home” lalu Klik Delete Slide",
             pilihan_3: " Klik Ribbon “Format” lalu Klik Delete Slide ",
-            pilihan_4: " Klik New slide lalu Klik Delete Slide "
+            pilihan_4: " Klik New slide lalu Klik Delete Slide ",
+            result: 0
         },
         {
             id: 9,
@@ -94,7 +103,8 @@ export default function QuizPP() {
             pilihan_1: " Ctrl + C",
             pilihan_2: " Ctrl + P",
             pilihan_3: " Ctrl + S",
-            pilihan_4: " Ctrl + V"
+            pilihan_4: " Ctrl + V",
+            result: 0
         }
     ]);
 
@@ -104,8 +114,9 @@ export default function QuizPP() {
 
     const handleNilai = (e) => {
         if (e.target.value === Soal[e.target.id].jawaban) {
-            if (nilai === 0) {
+            if (Soal[e.target.id].result === 0) {
                 setNilai(nilai + 1)
+                Soal[e.target.id].result = 1
             } else {
                 setNilai(nilai)
             }

@@ -104,12 +104,12 @@ export default function QuizWord() {
 
     const handleNilai = (e) => {
         if (e.target.value === Soal[e.target.id].jawaban) {
-            if (nilai === 0) {
+            if (Soal[e.target.id].result === 0) {
                 setNilai(nilai + 1)
+                Soal[e.target.id].result = 1
             } else {
                 setNilai(nilai)
             }
-
         }
     }
 
