@@ -14,6 +14,7 @@ export default function QuizWord() {
             pilihan_2: " Title Bar",
             pilihan_3: " Window Management",
             pilihan_4: " Worksheet",
+            result: 0
         },
         {
             id: 1,
@@ -22,7 +23,8 @@ export default function QuizWord() {
             pilihan_1: " Replace",
             pilihan_2: " Find",
             pilihan_3: " Cut",
-            pilihan_4: " Copy"
+            pilihan_4: " Copy",
+            result: 0
         },
         {
             id: 2,
@@ -31,7 +33,8 @@ export default function QuizWord() {
             pilihan_1: " CTRL+V dan CTRL+H",
             pilihan_2: " CTRL+S dan CRTL+B",
             pilihan_3: " CTRL+Z dan CRTL+Y",
-            pilihan_4: " CRTL+F dan CRTL+X"
+            pilihan_4: " CRTL+F dan CRTL+X",
+            result: 0
         },
         {
             id: 3,
@@ -40,7 +43,8 @@ export default function QuizWord() {
             pilihan_1: " Replace",
             pilihan_2: " Insert",
             pilihan_3: " Justify",
-            pilihan_4: " Spacing"
+            pilihan_4: " Spacing",
+            result: 0
         },
         {
             id: 4,
@@ -49,7 +53,8 @@ export default function QuizWord() {
             pilihan_1: " Justify",
             pilihan_2: " Center",
             pilihan_3: " Align Left",
-            pilihan_4: " Align Right"
+            pilihan_4: " Align Right",
+            result: 0
         },
         {
             id: 5,
@@ -58,7 +63,8 @@ export default function QuizWord() {
             pilihan_1: " Insert Image",
             pilihan_2: " Paragpraph",
             pilihan_3: " Page Setup Margins",
-            pilihan_4: " Columns"
+            pilihan_4: " Columns",
+            result: 0
         },
         {
             id: 6,
@@ -67,7 +73,8 @@ export default function QuizWord() {
             pilihan_1: " Delete Cell",
             pilihan_2: " Merge Cell",
             pilihan_3: " Insert Cell",
-            pilihan_4: " Insert Table"
+            pilihan_4: " Insert Table",
+            result: 0
         },
         {
             id: 7,
@@ -76,7 +83,8 @@ export default function QuizWord() {
             pilihan_1: " Insert Picture",
             pilihan_2: " Insert Column",
             pilihan_3: " Insert Table",
-            pilihan_4: " Insert"
+            pilihan_4: " Insert",
+            result: 0
         },
         {
             id: 8,
@@ -85,7 +93,8 @@ export default function QuizWord() {
             pilihan_1: " Table",
             pilihan_2: " Ruler",
             pilihan_3: " Image",
-            pilihan_4: " Reference"
+            pilihan_4: " Reference",
+            result: 0
         },
         {
             id: 9,
@@ -94,7 +103,8 @@ export default function QuizWord() {
             pilihan_1: " Find",
             pilihan_2: " Paste",
             pilihan_3: " Cut",
-            pilihan_4: " Replace"
+            pilihan_4: " Replace",
+            result: 0
         }
     ]);
 
