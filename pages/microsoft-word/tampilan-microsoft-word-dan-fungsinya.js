@@ -32,10 +32,17 @@ export default function Word() {
 
 
                         <li className="capitalize text-left list-decimal font-bold text-2xl lg:text-3xl"> Title Bar</li>
-                        <li className="capitalize text-left list-decimal font-bold text-2xl lg:text-3xl"> Window Management</li>
+                        <p className="mt-4 mb-2">
+                            Toolbar ini memiliki 3 tombol yang berbentuk icon yaitu tombol Save, Undo & Redo serta Customize Quick Access Toolbar. </p>
                         <li className="capitalize text-left list-decimal font-bold text-2xl lg:text-3xl"> Worksheet</li>
+                        <p className="mt-4 mb-2">
+                            Worksheet biasa juga disebut sebagai lembar kerja, workspace atau teks area pada Microsoft Word.Bagian ini merupakan tempat untuk mengetik, mengedit, menambahkan gambar dan pekerjaan lain sesuai dengan kebutuhan kita. </p>
                         <li className="capitalize text-left list-decimal font-bold text-2xl lg:text-3xl"> Kursor</li>
+                        <p className="mt-4 mb-2">
+                            Kursor berfungsi untuk menunjukkan posisi pengetikan atau posisi interaksi dengan layar saat ini.Ketika mengetikkan sesuatu maka teks akan keluar di lokasu kursor tersebut.Kita bisa memindahkan kursor kita dengan menggerakkan mouse kemanapun yang kita inginkan. </p>
                         <li className="capitalize text-left list-decimal font-bold text-2xl lg:text-3xl"> Status Bar</li>
+                        <p className="mt-4 mb-2">
+                            Status bar terdapat pada bagian kiri paling bawah jendela MS Word.Fungsi status bar adalah untuk menampilkan informasi secara real time mengenai perintah yang sedang aktif pada dokumen yang sedang dibuka </p>
                     </div>
                 </div>
 
