@@ -4,23 +4,18 @@ import Link from "next/dist/client/link";
 
 export default function HomePage() {
     return (
-        <>
-            <div className="overflow-hidden bg-black flex flex-col justify-center items-center">
-                <div className="relative translate-y-10 lg:-translate-y-10 h-screen w-screen opacity-60 scale-y-100 -z-1 blur-sm">
-                    <video autoPlay loop muted>
-                        <source src="/assets/tim13.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <div className="absolute z-3">
-                    <div className="text-white px-4 font-sans font-bold text-4xl lg:text-6xl text-center">
-                        LEARN MICROSOFT OFFICE EASILY
-                    </div>
-                    <div className="flex flex-col lg:flex-row mt-10 justify-center items-center">
-                        <button className=" w-max mb-4 lg:mb-0 text-center border-2 border-white text-white drop-shadow-lg shadow-[#133C7C] rounded-lg py-2 md:py-4 px-8 md:px-10 font-semibold hover:bg-white hover:text-[#0A192F]"><Link href="/word">Microsoft Word</Link></button>
-                        <button className="w-max lg:ml-4 text-center border-2 border-white text-white rounded-lg py-2 md:py-4 px-4 md:px-10 font-semibold hover:bg-white hover:text-[#0A192F]"><Link href="/powerpoint">Microsoft Powerpoint</Link></button>
+        <div className="flex flex-col-reverse lg:flex-row justify-center items-center">
+            <div>
+                <div className="flex flex-col">
+                    <h1 className="text-[#0A192F] ml-10 sm:ml-16 sm:pr-10 font-sans font-bold text-4xl lg:text-6xl">Learn Microsoft Office Easily</h1>
+                    <div className="flex flex-col lg:flex-row mt-10 ml-10 sm:ml-16">
+                        <button className=" w-max mb-4 lg:mb-0 text-center bg-sky-500 text-white hover:shadow-lg hover:shadow-sky-500/50 rounded-lg py-2 md:py-4 px-8 md:px-10 font-semibold hover:bg-sky-400 hover:text-white"><Link href="/word">Microsoft Word</Link></button>
+                        <button className="w-max lg:ml-4 text-center bg-sky-500 text-white hover:shadow-lg hover:shadow-sky-500/50 rounded-lg py-2 md:py-4 px-4 md:px-10 font-semibold hover:bg-sky-400 hover:text-white"><Link href="/powerpoint">Microsoft Powerpoint</Link></button>
                     </div>
                 </div>
+
             </div>
-        </>
+            <img src="/assets/illustration.svg" alt="ilustrasi" className="sm:mr-6 -mt-6 lg:mt-0" />
+        </div>
     )
 }
