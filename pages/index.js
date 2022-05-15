@@ -34,7 +34,9 @@ export default function Home() {
 
             :
 
-            <HomePage />
+            setTimeout(() => {
+              <HomePage />
+            }, 500)
         }
       </main>
 
