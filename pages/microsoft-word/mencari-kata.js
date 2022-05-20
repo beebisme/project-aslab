@@ -24,6 +24,12 @@ export default function Word() {
                         <li>Ketik kata atau kalimat yang ingin di cari, contoh kata word. Maka kata tersebut akan langung dicari oleh MS Word dan ditampilkan dengan tanda stabilo <i>(highlight)</i> warna kuning.</li>
                         <li>Klik arah bawah atau arah atas untuk melihat semua kata yang ditemukan.</li>
                     </div>
+
+                    <div className="w-10/12 mt-10">
+                        <video controls>
+                            <source src="/assets/video/word/4.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
 
                 {/* list materi */}

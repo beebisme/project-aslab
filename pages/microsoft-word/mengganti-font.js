@@ -24,6 +24,12 @@ export default function Word() {
                         <li>Cari nama font sesuai kebutuhan. Misalnya <b>Times New Roman.</b></li>
                         <li>Pilih font tersebut. Maka secara otomatis font akan berubah menjadi Times New Roman.</li>
                     </div>
+
+                    <div className="w-10/12 mt-10">
+                        <video controls>
+                            <source src="/assets/video/word/7.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
 
                 {/* list materi */}

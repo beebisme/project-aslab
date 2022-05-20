@@ -22,7 +22,15 @@ export default function Word() {
                         <li>Klik menu <b>Home</b></li>
                         <li>Klik tombol <b>Change Case</b> yang dilambangkan dengan icon <b>Aa</b>. Maka akan tampil pilihan <b>Sentence case, lowercase, UPPERCASE, Capitalize Each Word dan tOGGLE cASE.</b></li>
                     </div>
+
+
+                    <div className="w-10/12 mt-10">
+                        <video controls>
+                            <source src="/assets/video/word/2.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
+
 
                 {/* list materi */}
                 <div className="mr-10 lg:mr-20 ml-10 my-8">

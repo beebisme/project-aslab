@@ -26,6 +26,12 @@ export default function Word() {
                         <li>Atur jarak spasi sesuai kebutuhan dengan cara klik tanda panah atas atau bawah di kolom <b>By.</b></li>
                         <li>Klik tombol <b>OK</b> yang terletak di bawah kotak dialog tersebut jika pengaturan sudah sesuai.</li>
                     </div>
+
+                    <div className="w-10/12 mt-10">
+                        <video controls>
+                            <source src="/assets/video/word/9.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
 
                 {/* list materi */}

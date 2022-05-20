@@ -25,6 +25,12 @@ export default function Word() {
                         <li>Kemudian klik icon <b>underline</b> yang berbentuk huruf U dengan garis bawah. Untuk cara cepatnya bisa menggunakan kombinasi keyboard <b>CTRL+U.</b></li>
                         <li>Kemudian, huruf yang telah kita blok tadi akan berubah.</li>
                     </div>
+
+                    <div className="w-10/12 mt-10">
+                        <video controls>
+                            <source src="/assets/video/word/8.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
 
                 {/* list materi */}

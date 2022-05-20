@@ -28,6 +28,12 @@ export default function Word() {
                         <li>Klik <b>Replace All</b> untuk mengganti semua kata atau kalimat sekaligus yang sesuai. Atau, jika kita ingin menggantinya satu-persatu kita juga bisa klik <b>Replace</b> berkali-kali sesuai kebutuhan.</li>
                         <li>Tutup kotak dialog <b>Find and Replace</b> jika sudah selesai.</li>
                     </div>
+
+                    <div className="w-10/12 mt-10">
+                        <video controls>
+                            <source src="/assets/video/word/5.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
 
                 {/* list materi */}

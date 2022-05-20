@@ -26,6 +26,12 @@ export default function Word() {
                         <li>Apabila kita ingin kembali kepada pengeditan sebelumnya yang lebih spesifik, kita bisa klik tombol tanda panah kecil yang mengarah ke bawah di samping tombol undo. Maka akan terbuka semua pengeditan yang telah kita lakukan.</li>
                         <li>Setelah itu klik salah satu langkah yang kita inginkan maka kita akan dibawa kembali ke langkah pengeditan yang kita pilih.</li>
                     </div>
+
+                    <div className="w-10/12 mt-10">
+                        <video controls>
+                            <source src="/assets/video/word/6.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
 
                 {/* list materi */}

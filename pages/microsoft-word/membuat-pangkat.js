@@ -23,6 +23,12 @@ export default function Word() {
                         <li>Untuk membuat pangkat bawah, klik pada icon subscript yang dilambangkan dengan icon x2. Untuk cara cepatnya tekan tombol <b>CTRL dan =</b> secara bersamaan. Maka huruf akan menjadi pangkat di bawah.</li>
                         <li>Huruf atau angka akan menjadi pangkat yang berada di atas.</li>
                     </div>
+
+                    <div className="w-10/12 mt-10">
+                        <video controls>
+                            <source src="/assets/video/word/10.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
 
                 {/* list materi */}
