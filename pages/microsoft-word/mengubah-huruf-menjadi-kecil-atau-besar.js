@@ -24,7 +24,7 @@ export default function Word() {
                     </div>
 
 
-                    <div className="w-10/12 mt-10">
+                    <div className="w-10/12 my-10">
                         <video controls>
                             <source src="/assets/video/word/2.mp4" type="video/mp4" />
                         </video>

@@ -25,7 +25,7 @@ export default function Word() {
                         <li>Klik arah bawah atau arah atas untuk melihat semua kata yang ditemukan.</li>
                     </div>
 
-                    <div className="w-10/12 mt-10">
+                    <div className="w-10/12 my-10">
                         <video controls>
                             <source src="/assets/video/word/4.mp4" type="video/mp4" />
                         </video>

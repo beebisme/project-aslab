@@ -29,7 +29,7 @@ export default function Word() {
                         <li>Tutup kotak dialog <b>Find and Replace</b> jika sudah selesai.</li>
                     </div>
 
-                    <div className="w-10/12 mt-10">
+                    <div className="w-10/12 my-10">
                         <video controls>
                             <source src="/assets/video/word/5.mp4" type="video/mp4" />
                         </video>

@@ -27,7 +27,7 @@ export default function Word() {
                         <li>Setelah itu klik salah satu langkah yang kita inginkan maka kita akan dibawa kembali ke langkah pengeditan yang kita pilih.</li>
                     </div>
 
-                    <div className="w-10/12 mt-10">
+                    <div className="w-10/12 my-10">
                         <video controls>
                             <source src="/assets/video/word/6.mp4" type="video/mp4" />
                         </video>

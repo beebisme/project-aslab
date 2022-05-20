@@ -27,7 +27,7 @@ export default function Word() {
                         <li>Klik tombol <b>OK</b> yang terletak di bawah kotak dialog tersebut jika pengaturan sudah sesuai.</li>
                     </div>
 
-                    <div className="w-10/12 mt-10">
+                    <div className="w-10/12 my-10">
                         <video controls>
                             <source src="/assets/video/word/9.mp4" type="video/mp4" />
                         </video>

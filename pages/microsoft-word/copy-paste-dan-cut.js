@@ -31,7 +31,7 @@ export default function Word() {
                     <p className="text-justify mr-10 lg:mr-0 leading-normal">Perbedaan perintah cut paste dan copy paste adalah cut paste digunakan untuk memindahkan teks atau objek. Jadi teks atau objek tersebut akan hilang dari tempat awal lalu ditampilkan di lokasi baru sesuai keinginan. Sedangkan copy paste digunakan untuk menyalin teks atau objek. Jadi teks atau objek tersebut tetap ada di lokasi awalnya dan juga akan tampil di lokasi baru sesuai perintah.
                     </p>
 
-                    <div className="w-10/12 mt-10">
+                    <div className="w-10/12 my-10">
                         <video controls>
                             <source src="/assets/video/word/3.mp4" type="video/mp4" />
                         </video>
