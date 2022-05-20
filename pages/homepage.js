@@ -5,8 +5,8 @@ import Link from "next/dist/client/link";
 export default function HomePage() {
     return (
         <>
-            <div className="overflow-hidden bg-black flex flex-col justify-center items-center">
-                <div className="relative translate-y-10 lg:-translate-y-10 h-screen w-screen opacity-60 scale-y-100 -z-1 blur-sm">
+            <div className="overflow-hidden bg-black w-screen flex flex-col justify-center items-center">
+                <div className="relative translate-y-10 lg:-translate-y-10 h-screen w-screen opacity-60 scale-y-100 -z-1 blur-sm m-auto">
                     <video autoPlay loop muted>
                         <source src="/assets/tim13.mp4" type="video/mp4" />
                     </video>
