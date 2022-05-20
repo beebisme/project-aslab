@@ -29,7 +29,12 @@ export default function Word() {
                         <li><b>Font Colour</b> digunakan untuk memberi warna pada teks.</li>
                         <li><b>Text Highlight Color</b> digunakan untuk memberikan warna pada latar belakang pada teks.</li>
                     </div>
-                    <p>Ini video</p>
+
+                    <div className="w-10/12 my-10">
+                        <video controls>
+                            <source src="/assets/video/powerpoint/2.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
 
                 {/* list materi */}

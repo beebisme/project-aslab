@@ -17,9 +17,13 @@ export default function Word() {
                         <li>Letakkan kursor di dalam kotak teks, lalu ketikkan sesuatu.</li>
                         <li>Pilih teks, lalu pilih satu atau beberapa opsi dari bagian <b>Home</b>, seperti <b>Font</b>, <b>Font Size</b>, <b>Bold</b>, <b>Italic</b>, <b>Underline</b>, dan lain - lain.</li>
                         <li>Untuk membuat daftar berpoin atau bernomor, pilih teks, lalu pilih <b>Bullets</b> atau <b>Numbering </b>( Selengkapnya bisa dilihat pada video di bawah ini ).</li>
-                        <p>(ini video)</p>
                     </div>
-                    <p>Ini video</p>
+
+                    <div className="w-10/12 my-10">
+                        <video controls>
+                            <source src="/assets/video/powerpoint/3.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
 
                 {/* list materi */}

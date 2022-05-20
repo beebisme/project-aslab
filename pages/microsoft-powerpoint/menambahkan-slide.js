@@ -21,6 +21,12 @@ export default function Word() {
                         <li><b> Reset</b> digunakan untuk mengembalikan format kesemula atau default.</li>
                         <li><b> Section</b> digunakan mengelompokkan slide - slide yang memiliki topik yang sama.</li>
                     </div>
+
+                    <div className="w-10/12 my-10">
+                        <video controls>
+                            <source src="/assets/video/powerpoint/8.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
 
                 {/* list materi */}
