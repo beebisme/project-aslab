@@ -19,7 +19,7 @@ export default function Word() {
                         <li>Untuk membuat daftar berpoin atau bernomor, pilih teks, lalu pilih <b>Bullets</b> atau <b>Numbering </b>( Selengkapnya bisa dilihat pada video di bawah ini ).</li>
                     </div>
 
-                    <div className="w-10/12 my-10">
+                    <div className="w-9/12 my-10">
                         <video controls>
                             <source src="/assets/video/powerpoint/3.mp4" type="video/mp4" />
                         </video>
