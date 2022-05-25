@@ -19,7 +19,5 @@ export default function ListMateriPP() {
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-powerpoint/quiz-pp">Quiz Microsoft Powerpoint</Link></li>
             </div>
         </div>
-
-
     )
 }
