@@ -8,7 +8,7 @@ export default function Modal(
     return (
         <>
             <button
-                className={`${status} bg-sky-500 text-white active:bg-sky-600 font-bold uppercase text-sm px-10 py-3 rounded-lg hover:bg-sky-700 outline-none focus:outline-none ml-4 ease-linear transition-all duration-150`}
+                className={`${status} bg-sky-500 text-white active:bg-sky-600 font-bold uppercase text-sm px-10 py-3 rounded-lg hover:bg-sky-700 outline-none focus:outline-none mx-10 lg:mx-20 my-10 ease-linear transition-all duration-150`}
                 type="button"
                 onClick={() => setShowModal(true)}
             >
