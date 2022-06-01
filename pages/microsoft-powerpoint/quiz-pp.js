@@ -155,6 +155,7 @@ export default function QuizPP() {
 
             <button className={`${!final ? "hidden" : ""} bg-sky-500 text-white active:bg-sky-600 font-bold uppercase text-sm px-10 py-3 rounded-lg hover:bg-sky-700 outline-none focus:outline-none ml-20 my-10 ease-linear transition-all duration-150`} onClick={function () {
                 location.reload()
+                window.scrollTo(0, 0)
             }}>Mulai Ulang</button>
 
             <Modal score={nilai} status={active ? "" : "hidden"} />
