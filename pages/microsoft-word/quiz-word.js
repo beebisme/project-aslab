@@ -246,8 +246,6 @@ export default function QuizWord() {
         }
     }
 
-    Soal[0].status = "Benar"
-
 
     return (
         <>
