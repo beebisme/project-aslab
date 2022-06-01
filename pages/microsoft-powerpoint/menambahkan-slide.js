@@ -10,7 +10,7 @@ export default function Word() {
             </nav>
 
             {/* materi */}
-            <div className="container flex flex-col lg:flex-row">
+            <div className="flex flex-col lg:flex-row pr-10">
                 <div className="text-center w-11/12 lg:w-8/12 ml-10 my-6 px-10">
                     <h1 className="font-bold text-2xl mb-4 mr-10 lg:mr-auto capitalize">Cara Menambahkan Slide Pada PowerPoint</h1>
                     <p className="text-justify mr-10 lg:mr-0 leading-normal">Setelah memilih lembar kerja presentasi, anda bisa membuat slide baru dengan memilih bagian New Slide pada menu seperti video di atas. Kemudian, akan muncul berbagai macam tipe slide. Pilih slide sesuai kebutuhan presentasi anda.  Untuk lebih jelasnya berikut akan dibahas satu-persatu fungsi pada menu - menunya :</p>

@@ -5,7 +5,7 @@ export default function ListMateriWord() {
     return (
         <div className="ml-2 bg-gray-100 p-5 rounded-lg">
             <h1 className="text-xl font-semibold">Daftar Materi Microsoft Word</h1>
-            <div className="container list-decimal mt-2">
+            <div className="list-decimal mt-2">
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2 capitalize"><Link href="/microsoft-word/tampilan-microsoft-word-dan-fungsinya">Bagian-bagian tampilan microsoft word dan fungsinya</Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/mengubah-huruf-menjadi-kecil-atau-besar">Mengubah Huruf Menjadi Kecil/ Besar di MS Word</Link></li>
                 <li className="text-blue-500 hover:underline text-base md:w-96 mb-2"><Link href="/microsoft-word/copy-paste-dan-cut">Copy Paste dan Cut di MS Word</Link></li>
