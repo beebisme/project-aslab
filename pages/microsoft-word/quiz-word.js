@@ -246,7 +246,7 @@ export default function QuizWord() {
         }
     }
 
-    let x = 2
+    Soal[0].status = "Benar"
 
 
     return (
