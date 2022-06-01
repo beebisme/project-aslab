@@ -115,6 +115,116 @@ export default function QuizWord() {
             pilihan_4: " Replace",
             status: "Salah",
             result: 0
+        },
+        {
+            id: 10,
+            soal: " 11. Jika kita menggunakan pilihan ini maka sel yang baru akan dimasukkan ke tempat di mana kita mengklik sel ini. Lalu sel yang lama akan dipindah ke sebelah kanan table. Merupakan fungsi dari… ",
+            jawaban: "B",
+            pilihan_1: " Shift cells down ",
+            pilihan_2: " Shift cells right ",
+            pilihan_3: " Insert entire row ",
+            pilihan_4: " Insert entire column ",
+            status: "Salah",
+            result: 0
+        },
+        {
+            id: 11,
+            soal: " 12. CTRL+J dan Ctrl+E berfungsi untuk… ",
+            jawaban: "A",
+            pilihan_1: " Membuat teks atau paragraf akan rata di kedua sisi dan rata tengah",
+            pilihan_2: " Membuat teks atau paragraph rata di kanan dan kiri",
+            pilihan_3: " Membuat teks atau paragraph rata di kiri dan kedua sisi",
+            pilihan_4: " Membuat teks atau paragraph rata di tengah dan di sisi kanan",
+            status: "Salah",
+            result: 0
+        },
+        {
+            id: 12,
+            soal: "13.  Pilihan spacing yang digunakan untuk merenggangkan atau memperlebar spasi…. ",
+            jawaban: "B",
+            pilihan_1: " Normal ",
+            pilihan_2: " Expanded  ",
+            pilihan_3: " Condensed  ",
+            pilihan_4: " Insert",
+            status: "Salah",
+            result: 0
+        },
+        {
+            id: 13,
+            soal: "14. Window Management terletak di sudut kanan atas jendela dan terdiri atas 4 tombol. Fungsi pada masing-masing tombol tersebut antara lain, kecuali… ",
+            jawaban: "A",
+            pilihan_1: " Tombol Close berfungsi untuk membuka jendela ms word",
+            pilihan_2: " Tombol Restore Down digunakan untuk memperkecil jendela.",
+            pilihan_3: " Tombol Maximize digunakan untuk menampilkan dan memperbesar jendela secara full.",
+            pilihan_4: " Tombol Minimize, jika tombol ini diklik maka jendela word memperkecil dirinya dan menjadi icon aktif pada taskbar.",
+            status: "Salah",
+            result: 0
+        },
+        {
+            id: 14,
+            soal: "15. Lembar kerja, workspace atau teks area pada Microsoft Word disebut…",
+            jawaban: "C",
+            pilihan_1: " Status bar",
+            pilihan_2: " Kursor",
+            pilihan_3: " Worksheet",
+            pilihan_4: " Quick accsess toolbar",
+            status: "Salah",
+            result: 0
+        },
+        {
+            id: 15,
+            soal: "16. Untuk mengahapus table menggunakan fitur",
+            jawaban: "D",
+            pilihan_1: " Insert picture",
+            pilihan_2: " Insert table",
+            pilihan_3: " Shift cell",
+            pilihan_4: " Delete table",
+            status: "Salah",
+            result: 0
+        },
+        {
+            id: 16,
+            soal: "17. Untuk mengganti kata atau kalimat pada dokumen secara cepat menggunakan fitur…",
+            jawaban: "A",
+            pilihan_1: " Replace",
+            pilihan_2: " Insert",
+            pilihan_3: " Find",
+            pilihan_4: " Column ",
+            status: "Salah",
+            result: 0
+        },
+        {
+            id: 17,
+            soal: "18. Ctrl+B dan Ctrl+I berfungsi untuk…",
+            jawaban: "A",
+            pilihan_1: " Menebalkan huruf dan memiringkan huruf.",
+            pilihan_2: " Menghilangkan huruf dan menambahkan huruf",
+            pilihan_3: " Menggaris bawahi huruf dan menebalkan huruf",
+            pilihan_4: " Memiringkan huruf dan menggaris bawahi huruf",
+            status: "Salah",
+            result: 0
+        },
+        {
+            id: 18,
+            soal: "19. Jika ingin custom kertas bisa menggunakan fitur yang ada pada layout yaitu…",
+            jawaban: "D",
+            pilihan_1: " Margin",
+            pilihan_2: " Picture",
+            pilihan_3: " Orientation",
+            pilihan_4: " More Paper Sizes. ",
+            status: "Salah",
+            result: 0
+        },
+        {
+            id: 19,
+            soal: "20. Berikut adalah menu wrap text dan fungsinya, kecuali",
+            jawaban: "B",
+            pilihan_1: " In Line With Text: Berfungsi untuk mensejajarkan posisi gambar dengan teks.",
+            pilihan_2: " Square: Berfungsi untuk memposisikan gambar dengan teks membentuk pola lingkaran",
+            pilihan_3: " Tight: Berfungsi untuk menempatkan gambar dengan teks sesuai dengan bentuk gambar.",
+            pilihan_4: " Through: Berfungsi untuk menempatkan gambar dengan teks sesuai dengan bentuk gambar, jika terdapat celah maka teks akan mengisi celah atau ruang tersebut.",
+            status: "Salah",
+            result: 0
         }
     ]);
 
@@ -131,10 +241,12 @@ export default function QuizWord() {
             } else {
                 setNilai(nilai)
             }
-        }else{
+        } else {
             Soal[e.target.id].status = "Salah"
         }
     }
+
+    let x = 2
 
 
     return (
@@ -151,6 +263,11 @@ export default function QuizWord() {
                 setActive(!active)
                 setfinal(!final)
             }}>Submit</button>
+
+            <button className={`${!final ? "hidden" : ""} bg-sky-500 text-white active:bg-sky-600 font-bold uppercase text-sm px-10 py-3 rounded-lg hover:bg-sky-700 outline-none focus:outline-none ml-20 my-10 ease-linear transition-all duration-150`} onClick={function () {
+                location.reload()
+            }}>Mulai Ulang</button>
+
             <Modal score={nilai} status={active ? "" : "hidden"} />
         </>
     )
@@ -171,7 +288,7 @@ function PilihanGanda({
                     <input type="radio" id={id} name={id} value="C" onChange={fungsi} />{pilihan_3}<br />
                     <input type="radio" id={id} name={id} value="D" onChange={fungsi} />{pilihan_4}<br />
                 </div>
-                <p className={`${final ? "px-20 pt-2" : "hidden"}`}>Status : {status}</p>
+                <p className={`${final ? "px-20 pt-2" : "hidden"}`}>Status : <span className={`${status == "Salah" ? "text-red-500 font-bold" : "text-green-500 font-bold"}`}>{status}</span></p>
             </div>
         </>
     )

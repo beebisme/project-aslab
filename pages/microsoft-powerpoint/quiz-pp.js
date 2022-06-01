@@ -137,6 +137,7 @@ export default function QuizPP() {
     }
 
 
+
     return (
         <>
             <Navbar />
@@ -151,6 +152,11 @@ export default function QuizPP() {
                 setActive(!active)
                 setfinal(!final)
             }}>Submit</button>
+
+            <button className={`${!final ? "hidden" : ""} bg-sky-500 text-white active:bg-sky-600 font-bold uppercase text-sm px-10 py-3 rounded-lg hover:bg-sky-700 outline-none focus:outline-none ml-20 my-10 ease-linear transition-all duration-150`} onClick={function () {
+                location.reload()
+            }}>Mulai Ulang</button>
+
             <Modal score={nilai} status={active ? "" : "hidden"} />
         </>
     )
@@ -160,7 +166,6 @@ export default function QuizPP() {
 function PilihanGanda({
     soal, id, pilihan_1, pilihan_2, pilihan_3, pilihan_4, fungsi, status, final
 }) {
-
     return (
         <>
             <div className="lg:w-3/4">
@@ -171,7 +176,7 @@ function PilihanGanda({
                     <input type="radio" id={id} name={id} value="C" onChange={fungsi} />{pilihan_3}<br />
                     <input type="radio" id={id} name={id} value="D" onChange={fungsi} />{pilihan_4}<br />
                 </div>
-                <p className={`${final ? "px-20 pt-2" : "hidden"}`}>Status : {status}</p>
+                <p className={`${final ? "px-20 pt-2" : "hidden"}`}>Status : <span className={`${status == "Salah" ? "text-red-500 font-bold" : "text-green-500 font-bold"}`}>{status}</span></p>
             </div>
         </>
     )
