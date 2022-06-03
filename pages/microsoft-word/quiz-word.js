@@ -230,11 +230,11 @@ export default function QuizWord() {
     const [Soal, setSoal] = useState([{}]);
 
     function randomArr() {
-        const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+        const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
         arr.sort(() => Math.random() - 0.5)
 
 
-        for (let i = 0; i < arr.length; i++) {
+        for (let i = 0; i < 11; i++) {
             Soal.push(Soal2[arr[i]])
         }
 
